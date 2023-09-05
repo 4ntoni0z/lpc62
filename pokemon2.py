@@ -2,6 +2,10 @@ import os
 import requests
 #JUAN ANTONIO SENA CASTILLO
 #1973595
+#script en python que consulta el api de pokemon 
+#para listar los nombres de pokemon pero se le agrego 
+#interaccion paraq ue listaras mas pokemons segun se aya redirigiendo 
+#fecha 04-09-2023
 
 def get_pokemons (url ="https://pokeapi.co/api/v2/pokemon-form/", offset=0):
     args = {'offset':offset} if offset else{}
